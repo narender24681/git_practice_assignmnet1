@@ -11,7 +11,7 @@ for (var i = 1; i <= limit; i++) {
     }
   }
 
-  if (divisibleCount == 3) {
+  if (divisibleCount === 2) {
     console.log(i);
   }
 }
